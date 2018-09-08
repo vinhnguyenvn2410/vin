@@ -1,0 +1,20 @@
+#key step according to many professionals I had the chance to meet. Some even apply the 80/20 on this step and say it's 80% of their work.
+Assumes pandas and numpy imported
+
+Dealing with missing data:
+1. StringIO(), isnull() to find null data. dropna()-axis, how, thresh, subset to get rid of NaN
+2. Interpolation: Imputer using mean, median or most_frequent. sklearn.preprocessing/Imputer
+3. Categorical data: mapping or encode class labels. Or easier: pd.get_dummies
+
+
+Partitioning Data:
+1. sklearn.crosslidation import train_test_split (refer to classification exercise for example). Assigns test data size need balancing.
+
+Standardize the features (putting em on the same scale):
+1. Normalization: min-max scaling (x - min / range). 
+sklearn.preprocessing import MinMaxScaler
+mms = MinMaxScaler()
+x_train_norm = mms.fit_transform(X_Train)
+X_test_norm = mms.transform(X_Test)
+
+2. Standardization
