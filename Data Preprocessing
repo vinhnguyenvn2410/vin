@@ -17,4 +17,11 @@ mms = MinMaxScaler()
 x_train_norm = mms.fit_transform(X_Train)
 X_test_norm = mms.transform(X_Test)
 
-2. Standardization
+2. Standardization: statistical method to find Z
+code similar to MinMaxScaler.
+
+Select Meaningful features: some ways to prevent overfitting: collect more data, intro penalty for complexity via regularization, 
+simpler model, reduce attributes/dimensionality of data
+Penalty regularization: L1 and L2 sklearn.linear LogisticRegression
+
+prof. Jane Tan from Undergrad and dimensionnality reduction:
