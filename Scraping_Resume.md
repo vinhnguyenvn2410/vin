@@ -1,3 +1,5 @@
+#I learned from a workshop at school about a tip to improve the effectiveness of your resume. By simply including some of the words
+from the job descriptions, you can increase your chances. To find the most popular and relevant words, you can use the short pieces of code below. You would have to eliminate some of the meaningless info which i will try to find a solution on a later day. Gluck!
 
 
 ```python
